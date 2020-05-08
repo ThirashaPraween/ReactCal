@@ -166,7 +166,11 @@ function Calculator() {
         }else if(method === '/'){
             setTotal(total / Number(count))
         }else{
-            setTotal(total * Number(count))
+            if(total !== 0){
+                setTotal(total * Number(count))
+            }else{
+                setTotal(count)
+            }
         }
         setMethod('*')
         dispatch('clear')
