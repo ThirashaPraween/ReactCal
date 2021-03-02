@@ -1,4 +1,4 @@
-# React Calculator
+# React Hooks Calculator
 ReactJs Calculator using ReactHooks (useState, useReducer)
 
 Use this code.
